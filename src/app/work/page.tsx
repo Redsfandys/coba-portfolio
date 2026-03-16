@@ -37,7 +37,7 @@ function WorkGrid() {
     <div className="flex flex-col gap-16">
       <header className="flex flex-col gap-8 border-b border-neutral-800 pb-8">
         <h1 className="text-xl font-light tracking-[0.2em] text-neutral-400 uppercase">
-          Index / All Works
+          All My Works
         </h1>
         
         <div className="flex flex-wrap gap-6 md:gap-10">

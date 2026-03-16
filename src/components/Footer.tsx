@@ -10,15 +10,15 @@ export default function Footer() {
           <span className="text-sm font-medium text-neutral-200 tracking-wide">
             Reds.
           </span>
-          {/* <span className="text-xs text-neutral-600 tracking-widest uppercase">
-            © {currentYear} / Visuals & Code
-          </span> */}
+          <span className="text-xs text-neutral-600 tracking-widest uppercase">
+            © {currentYear} / Reds
+          </span>
         </div>
 
         {/* Right Side: Social & Contact Links */}
         <nav className="flex gap-8 text-xs uppercase tracking-[0.2em] text-neutral-500">
           <a 
-            href="redsfdys@gmail.com" 
+            href="mailto:redsfdys@gmail.com" 
             className="hover:text-neutral-50 transition-colors duration-500"
           >
             Email
@@ -38,6 +38,12 @@ export default function Footer() {
             className="hover:text-neutral-50 transition-colors duration-500"
           >
             GitHub
+          </a>
+          <a 
+            href="/about" 
+            className="hover:text-neutral-50 transition-colors duration-500"
+          >
+            About
           </a>
         </nav>
         

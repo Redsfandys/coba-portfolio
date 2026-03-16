@@ -5,9 +5,19 @@ import Footer from '@/components/Footer';
 import CustomCursor from '@/components/CustomCursor';
 
 export const metadata: Metadata = {
-  title: 'Visual Artist',
-  description: 'Showcase of photography, 3D renders, and video edits.',
+  title: 'Reds',
+  description: 'Showcase of my creations.',
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      new URL('/icon.svg', 'https://r3ds.vercel.app').href, 
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png' },
+    ],
+  }
 };
+
 
 export default function RootLayout({
   children,
