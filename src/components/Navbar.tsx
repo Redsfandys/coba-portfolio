@@ -8,7 +8,7 @@ export default function Navbar() {
         href="/" 
         className="text-lg font-medium tracking-wide hover:text-neutral-400 transition-colors duration-500"
       >
-        STUDIO.
+        Reds.
       </Link>
 
       {/* Navigation Links */}
@@ -17,13 +17,13 @@ export default function Navbar() {
           href="/work" 
           className="hover:text-neutral-50 transition-colors duration-500"
         >
-          Work
+          Karya gw
         </Link>
         <Link 
           href="/useful-sites" 
           className="hover:text-neutral-50 transition-colors duration-500"
         >
-          Useful Sites
+          Website random
         </Link>
       </nav>
     </header>

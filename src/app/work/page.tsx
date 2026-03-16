@@ -7,7 +7,7 @@ export default function Work() {
     <div className="flex flex-col gap-16">
       <header className="border-b border-neutral-800 pb-8">
         <h1 className="text-xl font-light tracking-[0.2em] text-neutral-400 uppercase">
-          Index / Selected Works
+          Index / All Works
         </h1>
       </header>
 
@@ -16,7 +16,7 @@ export default function Work() {
           <Link key={project.id} href={`/work/${project.id}`} className="group flex flex-col gap-4 cursor-pointer">
             <div className="w-full bg-neutral-900 rounded-sm overflow-hidden relative aspect-[4/5] md:aspect-square">
               <Image 
-                src={project.galleryImages[0]}
+                src={project.media[0].url}
                 alt={project.title}
                 fill
                 className="object-cover transition-transform duration-700 ease-in-out group-hover:scale-105"

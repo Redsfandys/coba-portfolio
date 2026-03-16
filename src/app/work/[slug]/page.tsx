@@ -38,7 +38,7 @@ export default async function ProjectDetail({
       {/* Hero Media Element */}
       <div className="w-full aspect-video md:aspect-[21/9] bg-neutral-900 relative rounded-sm overflow-hidden">
         <Image
-          src={project.galleryImages[0]}
+          src={project.media[0].url}
           alt={project.title}
           fill
           className="object-cover"

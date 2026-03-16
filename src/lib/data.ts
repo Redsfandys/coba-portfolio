@@ -1,76 +1,124 @@
+export type MediaItem = {
+  type: 'image' | 'video';
+  url: string;
+};
+
 export type PortfolioItem = {
   id: string;
   title: string;
-  galleryImages: string[];
-  category: 'Blender 3D' | 'After Effects' | 'Photography' | 'Websites';
+  category: 'Blender 3D' | 'After Effects' | 'Photography' | 'Web Development';
   description: string;
+  media: MediaItem[];
+  role?: string;        // optional
+  techStack?: string[]; // optional
 };
 
 export const projectsData: PortfolioItem[] = [
   {
-    id: 'w140-study',
-    title: 'Mercedes W140 Study',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=1200&q=80'
-    ],
-    category: 'Photography',
-    description: 'Low-light automotive photography focusing on the timeless geometry and sharp, distinctive lines of the W140 chassis.'
-  },
-  {
-    id: 'brake-light-volumetrics',
-    title: 'Brake Light Volumetrics',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1611016186353-9af2430f81d1?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1620882814836-98a2eb98b1b5?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80'
-    ],
+    id: 'Blender-bukit-bintang',
+    title: '3D render bukit bintang',
     category: 'Blender 3D',
-    description: 'A study in realistic light dispersion and glass refraction, aiming for photorealistic material nodes and volumetric lighting.'
+    description: 'malam.',
+    media: [
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773613854/bukit_bintang2_fwzvar.png' },
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773614480/bukit_bintang_portrait_y1rxld.png' },
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773614483/bukit_bintang_portrait_car1_gwarx3.png' }
+    ],
   },
   {
-    id: 'exhibition-recap',
-    title: 'Exhibition After-Movie',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=1200&q=80'
-    ],
-    category: 'After Effects',
-    description: 'A cinematic, high-contrast recap of an annual photography club exhibition, edited to emphasize atmosphere and community.'
-  },
-  {
-    id: 'ls400-archive',
-    title: 'Lexus LS400 Archive',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1542282088-fe8426682b8f?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1503376710962-d98c19eb5ce6?auto=format&fit=crop&w=1200&q=80'
-    ],
-    category: 'Websites',
-    description: 'A visual archive showcasing factory color codes and the iconic 90s styling of the classic Lexus LS400.'
-  },
-  {
-    id: 'render-optimization',
-    title: 'Cycles Render Optimization',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1633511090164-b4109f2d12e6?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80'
-    ],
+    id: 'Blender-nyoba-2d-shader',
+    title: 'Experimen shader 2D / Toon shader',
     category: 'Blender 3D',
-    description: 'Exploring high-fidelity rendering techniques and node setups to push realism in hard-surface automotive modeling.'
+    description: 'nyoba shader 2D di blender, dikala keterbatasan resource komputer',
+    media: [
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773614511/test_2d_shade_2_wywfkz.jpg' },
+      { type: 'video', url: 'https://res.cloudinary.com/diofdjc4m/video/upload/v1773615826/0001_2_c3ryit.mp4' },
+    ],
   },
   {
-    id: 'merch-promo',
-    title: 'Merchandise Promo',
-    galleryImages: [
-      'https://images.unsplash.com/photo-1529336953128-a85760f58cb5?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1563203369-26f2e4a5ccf7?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1584916201218-f4242ceb4809?auto=format&fit=crop&w=1200&q=80'
+    id: 'Blender-animasi-jalan-pantura',
+    title: 'Istirahat Sejenak',
+    category: 'Blender 3D',
+    description: 'A cinematic, high-contrast recap of an annual photography club exhibition, edited to emphasize atmosphere and community.',
+    media: [
+      // Dummy MP4 for testing video functionality
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773616348/blenderrender_o0wfz2.png' },
+      { type: 'video', url: 'https://res.cloudinary.com/diofdjc4m/video/upload/v1773616320/0001_1_tlkdbi.mp4' },
     ],
-    category: 'After Effects',
-    description: 'Kinetic typography and motion graphics designed to promote an upcoming run of photography exhibition merchandise.'
-  }
+  },
+  {
+    id: 'Blender-Touge-drift-animation',
+    title: 'Touge Drift Animation',
+    category: 'Blender 3D',
+    description: 'Animasi Drifting di jalan lintas provinsi indonesia. lokasi Jl. Banyuwangi (Banyuwangi-Jember), breakdown ada di Instagram.',
+    media: [
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773617177/chaser_drift_2_peh3tn.png' },
+      { type: 'video', url: 'https://res.cloudinary.com/diofdjc4m/video/upload/v1773616541/night_drift_2_z8od0q.mp4' },
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773617356/drift_sama_bdn3ts.png' },
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773618269/drift_tahzis.png' },
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773618100/chaser_drift_3_gaoj2q.png' },
+    ],
+  },
+  {
+    id: 'Blender-Aeon-Rooftop',
+    title: 'Aeon Mall BSD Rooftop',
+    category: 'Blender 3D',
+    description: 'Terinspirasi setelah parkir di rooftop.',
+    media: [
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773614364/aeon_mall_rooftop_rx7_fc_ijiwzv.png' },
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773614365/aeon_mall_rooftop_rx7_fc_0_l9fcx9.png' },
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773618045/Aeon_Mall_rooftop4_ycd3fc.png' },
+    ],
+  },
+  {
+    id: 'Blender-nyoba-2d-shader-lagi',
+    title: '2D shader siang di lapangan pancasila, style low poly',
+    category: 'Blender 3D',
+    description: 'nyoba implementasiin 2d shader yang udah dibuat di scene siang hari, hasilnya malah kayak game FR Legends 😭.',
+    media: [
+        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773619236/toon_shade_gsp_fmjjvm.jpg' },
+        { type: 'video', url: 'https://res.cloudinary.com/diofdjc4m/video/upload/v1773615471/0000_1_fy0ttp.mp4' },
+    ],
+  },
+  {
+    id: 'Blender-bangjo-Tugu',
+    title: 'Random',
+    category: 'Blender 3D',
+    description: 'Lampu merah tugu jogja.',
+    media: [
+        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773617311/chaser_rx7_180sx_190622_0_qvoe0g.png' },
+    ],
+  },
+  {
+    id: 'Blender-Random',
+    title: 'Random',
+    category: 'Blender 3D',
+    description: 'gak tau di mana, scene ngarang imajinasi aja.',
+    media: [
+        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773615599/LS400_jogja4_zyfbhx.png' },
+    ],
+  },
+  {
+    id: 'Blender-MBZ',
+    title: 'Jalan layang MBZ',
+    category: 'Blender 3D',
+    description: 'nyoba2 aja.',
+    media: [
+        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773615672/MBZ_pict_portrait_ccgovq.png' },
+    ],
+  },
+  {
+    id: 'Blender-Titik-Nol-Jogja',
+    title: 'Titik Nol Jogja 2022',
+    category: 'Blender 3D',
+    description: 'Titik Nol.',
+    media: [
+        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773615598/LS400_jogja_zqvxyn.png' },
+        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773615597/LS400_jogja1_y8gesq.png' },
+        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773615599/LS400_jogja3_sxobbs.png' },
+        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773615599/LS400_jogja4_zyfbhx.png' },
+    ],
+  },
+
+  
 ];
