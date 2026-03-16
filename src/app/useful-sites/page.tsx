@@ -4,21 +4,21 @@ export default function UsefulSites() {
   const sites = [
     {
       id: 1,
-      name: 'Blender Market',
-      url: 'https://blendermarket.com/',
-      description: 'blender market.',
+      name: 'Polyhaven',
+      url: 'https://polyhaven.com/',
+      description: 'find 3d texture, pbr, hdri, etc.',
     },
     {
       id: 2,
       name: 'Pixel Converter',
       url: 'https://www.pixel-converter.ameniwa.com/',
-      description: 'Ubah gambar jadi pixel EZ.',
+      description: 'EZ pixel images.',
     },
     {
       id: 3,
       name: 'Remove Vocals',
       url: 'https://x-minus.pro/ai/',
-      description: 'ini website berguna kalo pengen misahin suara ambient dan vokal.',
+      description: 'To separate vocals and background noise.',
     },
     {
       id: 4,
@@ -26,13 +26,31 @@ export default function UsefulSites() {
       url: 'https://frutigeraeroarchive.org/',
       description: 'MY BELOVED FRUTIGER AERO.',
     },
+    {
+      id: 5,
+      name: '90s.myretrotvs',
+      url: 'https://90s.myretrotvs.com/',
+      description: 'retro tv.',
+    },
+    {
+      id: 6,
+      name: 'web design museum',
+      url: 'https://webdesignmuseum.org/',
+      description: 'history of web design.',
+    },
+    {
+      id: 7,
+      name: 'Photoroom',
+      url: 'https://photoroom.com/',
+      description: 'Many image editing tools here : background remover for free but basic quality.',
+    },
   ];
 
   return (
     <div className="flex flex-col gap-16 max-w-3xl">
       <header className="border-b border-neutral-800 pb-8">
         <h1 className="text-xl font-light tracking-[0.2em] text-neutral-400 uppercase">
-          Useful Sites (not mine)
+          Pages that i find insteresting (not mine)
         </h1>
       </header>
 

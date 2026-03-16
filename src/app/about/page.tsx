@@ -30,13 +30,13 @@ export default function About() {
 
       <div className="flex flex-col lg:flex-row gap-16 lg:gap-24 items-start">
         
-        <motion.div 
+<motion.div 
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="w-full lg:w-5/12 sticky top-32"
+          className="w-full lg:w-5/12 lg:sticky lg:top-32" 
         >
-          <div className="w-full relative aspect-[3/4] md:aspect-[4/5] bg-neutral-900 rounded-sm overflow-hidden group">
+            <div className="w-full relative aspect-[3/4] md:aspect-[4/5] bg-neutral-900 rounded-sm overflow-hidden group">
             <Image
               src="https://frutigeraeroarchive.org/images/wallpapers/asadal_stock/asadal_stock_174.jpg" 
               alt="Portrait"
@@ -73,6 +73,10 @@ export default function About() {
               <p>
                 mainly active on ig.
               </p>
+              <p>
+                This image on the left isn't mine, credit to - frutigeraeroarchive.org.
+              </p>
+
             </div>
           </div>
 

@@ -1,12 +1,10 @@
 @import "tailwindcss";
 
-/* Cinematic text selection */
 ::selection {
-  background-color: #262626; /* neutral-800 */
-  color: #fafafa; /* neutral-50 */
+  background-color: #262626; 
+  color: #fafafa; 
 }
 
-/* Enforce dark mode background on the html/body level just in case */
 html, body {
   background-color: #000;
   color: #fafafa;

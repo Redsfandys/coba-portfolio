@@ -27,7 +27,7 @@ export default function CustomCursor() {
       className="pointer-events-none fixed inset-0 z-50 hidden sm:block transition-opacity duration-300"
       style={{
         // A radial gradient that creates a soft white light fading into transparency
-        background: 'radial-gradient(600px circle at var(--x, 50vw) var(--y, 50vh), rgba(139,92,246,0.08), transparent 40%)'
+        background: 'radial-gradient(600px circle at var(--x, 50vw) var(--y, 50vh), rgba(139,92,246,0.09), transparent 40%)'
       }}
     />
   );
