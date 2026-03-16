@@ -32,7 +32,7 @@ export default function UsefulSites() {
     <div className="flex flex-col gap-16 max-w-3xl">
       <header className="border-b border-neutral-800 pb-8">
         <h1 className="text-xl font-light tracking-[0.2em] text-neutral-400 uppercase">
-          Index / Useful Sites
+          Useful Sites (not mine)
         </h1>
       </header>
 

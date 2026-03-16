@@ -17,13 +17,13 @@ export default function Navbar() {
           href="/work" 
           className="hover:text-neutral-50 transition-colors duration-500"
         >
-          Karya gw
+          Works
         </Link>
         <Link 
           href="/useful-sites" 
           className="hover:text-neutral-50 transition-colors duration-500"
         >
-          Website random
+          Useful Sites
         </Link>
       </nav>
     </header>
