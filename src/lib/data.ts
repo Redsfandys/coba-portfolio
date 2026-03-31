@@ -26,9 +26,9 @@ export const projectsData: PortfolioItem[] = [
     description: 'malam.',
     featured: true,
     media: [
-      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773613854/bukit_bintang2_fwzvar.png' },
-      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773614480/bukit_bintang_portrait_y1rxld.png' },
-      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773614483/bukit_bintang_portrait_car1_gwarx3.png' }
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773613854/bukit_bintang2_fwzvar.png' },
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773614480/bukit_bintang_portrait_y1rxld.png' },
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773614483/bukit_bintang_portrait_car1_gwarx3.png' }
     ],
   },
   {
@@ -38,8 +38,8 @@ export const projectsData: PortfolioItem[] = [
     date: '14-10-2025',
     description: 'nyoba shader 2D di blender, dikala keterbatasan resource komputer',
     media: [
-      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773614511/test_2d_shade_2_wywfkz.jpg' },
-      { type: 'video', url: 'https://res.cloudinary.com/diofdjc4m/video/upload/v1773615826/0001_2_c3ryit.mp4' },
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773614511/test_2d_shade_2_wywfkz.jpg' },
+      { type: 'video', url: 'https://res.cloudinary.com/diofdjc4m/video/upload/vc_auto,q_auto/v1773615826/0001_2_c3ryit.mp4' },
     ],
   },
   {
@@ -50,8 +50,8 @@ export const projectsData: PortfolioItem[] = [
     description: 'Kangen pulkam.',
     featured: true,
     media: [
-      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773616348/blenderrender_o0wfz2.png' },
-      { type: 'video', url: 'https://res.cloudinary.com/diofdjc4m/video/upload/v1773616320/0001_1_tlkdbi.mp4' },
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773616348/blenderrender_o0wfz2.png' },
+      { type: 'video', url: 'https://res.cloudinary.com/diofdjc4m/video/upload/vc_auto,q_auto/v1773616320/0001_1_tlkdbi.mp4' },
     ],
   },
   {
@@ -62,11 +62,11 @@ export const projectsData: PortfolioItem[] = [
     description: 'Animasi Drifting di jalan lintas provinsi indonesia. lokasi Jl. Banyuwangi (Banyuwangi-Jember), breakdown ada di Instagram.',
     featured: true,
     media: [
-      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773617177/chaser_drift_2_peh3tn.png' },
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773617177/chaser_drift_2_peh3tn.png' },
       { type: 'video', url: 'https://res.cloudinary.com/diofdjc4m/video/upload/v1773616541/night_drift_2_z8od0q.mp4' },
-      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773617356/drift_sama_bdn3ts.png' },
-      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773618269/drift_tahzis.png' },
-      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773618100/chaser_drift_3_gaoj2q.png' },
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773617356/drift_sama_bdn3ts.png' },
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773618269/drift_tahzis.png' },
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773618100/chaser_drift_3_gaoj2q.png' },
     ],
   },
   {
@@ -77,9 +77,9 @@ export const projectsData: PortfolioItem[] = [
     description: 'Terinspirasi setelah parkir di rooftop.',
     featured: true,
     media: [
-      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773614364/aeon_mall_rooftop_rx7_fc_ijiwzv.png' },
-      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773614365/aeon_mall_rooftop_rx7_fc_0_l9fcx9.png' },
-      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773618045/Aeon_Mall_rooftop4_ycd3fc.png' },
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773614364/aeon_mall_rooftop_rx7_fc_ijiwzv.png' },
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773614365/aeon_mall_rooftop_rx7_fc_0_l9fcx9.png' },
+      { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773618045/Aeon_Mall_rooftop4_ycd3fc.png' },
     ],
   },
   {
@@ -89,8 +89,8 @@ export const projectsData: PortfolioItem[] = [
     date: '17-10-2025',
     description: 'nyoba implementasiin 2d shader yang udah dibuat di scene siang hari, hasilnya malah kayak game FR Legends 😭.',
     media: [
-        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773619236/toon_shade_gsp_fmjjvm.jpg' },
-        { type: 'video', url: 'https://res.cloudinary.com/diofdjc4m/video/upload/v1773615471/0000_1_fy0ttp.mp4' },
+        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773619236/toon_shade_gsp_fmjjvm.jpg' },
+        { type: 'video', url: 'https://res.cloudinary.com/diofdjc4m/video/upload/vc_auto,q_auto/v1773615471/0000_1_fy0ttp.mp4' },
     ],
   },
   {
@@ -100,7 +100,7 @@ export const projectsData: PortfolioItem[] = [
     date: '20-07-2023',
     description: 'Lampu merah tugu jogja.',
     media: [
-        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773617311/chaser_rx7_180sx_190622_0_qvoe0g.png' },
+        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773617311/chaser_rx7_180sx_190622_0_qvoe0g.png' },
     ],
   },
   {
@@ -110,7 +110,7 @@ export const projectsData: PortfolioItem[] = [
     date: '30-12-2022',
     description: 'gak tau di mana, scene ngarang imajinasi aja.',
     media: [
-        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773614536/untitled_kavryc.png' },
+        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773614536/untitled_kavryc.png' },
     ],
   },
   {
@@ -120,8 +120,8 @@ export const projectsData: PortfolioItem[] = [
     date: '14-09-2023',
     description: 'nyoba2 aja.',
     media: [
-        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773615672/MBZ_pict_portrait_ccgovq.png' },
-        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773615672/MBZ_pict_portrait_ccgovq.png' },
+        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773615672/MBZ_pict_portrait_ccgovq.png' },
+        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773615672/MBZ_pict_portrait_ccgovq.png' },
     ],
   },
   {
@@ -131,10 +131,10 @@ export const projectsData: PortfolioItem[] = [
     date: '25-01-2023',
     description: 'Titik Nol.',
     media: [
-        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773615598/LS400_jogja_zqvxyn.png' },
-        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773615597/LS400_jogja1_y8gesq.png' },
-        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773615599/LS400_jogja3_sxobbs.png' },
-        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773615599/LS400_jogja4_zyfbhx.png' },
+        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773615598/LS400_jogja_zqvxyn.png' },
+        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773615597/LS400_jogja1_y8gesq.png' },
+        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773615599/LS400_jogja3_sxobbs.png' },
+        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773615599/LS400_jogja4_zyfbhx.png' },
     ],
   },
 
@@ -149,7 +149,7 @@ export const projectsData: PortfolioItem[] = [
     date: '14-04-2023',
     description: 'Acumalaka.',
     media: [
-        { type: 'video', url: 'https://res.cloudinary.com/diofdjc4m/video/upload/v1773625909/portrait_mcthoc.mp4' },
+        { type: 'video', url: 'https://res.cloudinary.com/diofdjc4m/video/upload/vc_auto,q_auto/v1773625909/portrait_mcthoc.mp4' },
     ],
   },
 
@@ -163,7 +163,7 @@ export const projectsData: PortfolioItem[] = [
     date: '14-04-2023',
     description: 'Kursi Sekolah gweh.',
     media: [
-        { type: 'video', url: 'https://res.cloudinary.com/diofdjc4m/video/upload/v1773627461/kursi_sekolah_ddt9iu.mp4' },
+        { type: 'video', url: 'https://res.cloudinary.com/diofdjc4m/video/upload/vc_auto,q_auto/v1773627461/kursi_sekolah_ddt9iu.mp4' },
     ],
   },
 
@@ -190,7 +190,7 @@ export const projectsData: PortfolioItem[] = [
     date: '14-04-2023',
     description: 'you can see some on my insta',
     media: [
-        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/v1773629240/DSC06564-2_ymvt9u.jpg' },
+        { type: 'image', url: 'https://res.cloudinary.com/diofdjc4m/image/upload/f_auto,q_auto/v1773629240/DSC06564-2_ymvt9u.jpg' },
     ],
   },
   
