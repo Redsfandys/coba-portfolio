@@ -3,6 +3,13 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer'; 
 import CustomCursor from '@/components/CustomCursor';
+import { Inter } from 'next/font/google'; 
+
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+});
 
 export const metadata: Metadata = {
   title: 'Reds',
@@ -42,7 +49,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark scroll-smooth">
+    <html lang="en" className={`${inter.variable} dark scroll-smooth`}>
       <body className="bg-black text-neutral-50 font-sans antialiased min-h-screen flex flex-col">
         <CustomCursor />
         <Navbar />
