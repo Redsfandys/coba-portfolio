@@ -10,7 +10,6 @@ export default async function ProjectDetail({
 }) {
   const resolvedParams = await params;
   
-  // Look through our central array and find the one that matches the URL
   const project = projectsData.find((p) => p.id === resolvedParams.slug);
 
   if (!project) {

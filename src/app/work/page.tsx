@@ -14,7 +14,7 @@ function WorkGrid() {
   const urlFilter = searchParams.get('category') || 'All';
   const [activeFilter, setActiveFilter] = useState(urlFilter);
 
-  const categories = ['All', 'Blender 3D', 'Video Editing', 'Photography'];
+  const categories = ['All', 'Blender 3D', 'VFX','Video Editing', 'Photography'];
 
   const handleFilterChange = (category: string) => {
     setActiveFilter(category);
