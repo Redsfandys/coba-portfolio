@@ -11,7 +11,7 @@ export default function UsefulSites() {
     {
       id: 2,
       name: 'Pixel Converter',
-      url: 'https://www.pixel-converter.ameniwa.com/',
+      url: 'https://pixel-converter.ameniwa.com/',
       description: 'EZ pixel images.',
     },
     {
